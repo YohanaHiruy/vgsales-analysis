@@ -1,9 +1,11 @@
 # Video Game Sales Analysis
 
- I made an Analysis of 16,598 video game titles (1980-2016) using SQL and Power BI.
+I did an SQL cleaning and analysis plus a Power BI dashboard on 12,591 video game titles (1980-2015).
+
+![Dashboard](dashboard.png(2))
 
 ## Questions answered
-1. Which genre is the best: biggest total or best per game?
+1. Which genre is the best bet: biggest total or best per game?
 2. How have sales changed over time?
 3. Which publishers dominate?
 4. Do regions like different genres?
@@ -11,13 +13,17 @@
 6. Do a few hits make most of the money?
 
 ## Key findings
-- Action has the biggest total sales, but Platform and Shooter earn more per game
-- Sales peaked in 2008 (679M) and fell sharply by 2015
-- Japan is 27% Role-Playing, unlike North America and Europe
-- The top 1% of games make about 21% of all sales
+- Action is the biggest genre by total sales
+- Sales peaked around 2008, then declined
+- Nintendo is the top publisher
+- Japan's sales lean heavily toward Role-Playing, unlike North America and Europe
+- A small number of Blockbuster titles (5M+ copies) make a large share of total sales
 
 ## Files
 - `vg_sales_analysis.sql`: cleaning and analysis queries
-- `vgsales.csv`: raw dataset
+- `vgsales.csv`: dataset
+- `vgsales_dashboard.pbix`: Power BI dashboard
+- `dashboard.png`: dashboard screenshot
 
-## Dashboard
+## Tools
+SQL, Power BI (DAX, Power Query)
