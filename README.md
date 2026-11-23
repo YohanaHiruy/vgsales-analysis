@@ -3,7 +3,7 @@
  I made an Analysis of 16,598 video game titles (1980-2016) using SQL and Power BI.
 
 ## Questions answered
-1. Which genre is the best bet: biggest total or best per game?
+1. Which genre is the best: biggest total or best per game?
 2. How have sales changed over time?
 3. Which publishers dominate?
 4. Do regions like different genres?
