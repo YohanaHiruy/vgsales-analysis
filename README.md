@@ -2,7 +2,8 @@
 
 I did an SQL cleaning and analysis plus a Power BI dashboard on 12,591 video game titles (1980-2015).
 
-![Dashboard](dashboard.png)
+#Dashboard
+<img src="dashboard%20(2).png" alt="Power BI dashboard" width="900">
 
 ## Questions answered
 1. Which genre is the best bet: biggest total or best per game?
